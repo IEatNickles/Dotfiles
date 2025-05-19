@@ -99,8 +99,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="$PATH:/opt/nvim/bin:~/bin/:~/.local/bin/:~/bin/blender-4.4.0-linux-x64/"
-export ODIN_ROOT="/home/jdw/bin/Odin/"
+export PATH="$PATH:/opt/nvim/bin:~/bin/:~/.local/bin/"
+export ODIN_ROOT="$HOME/bin/Odin/"
 
 alias vim=nvim
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'

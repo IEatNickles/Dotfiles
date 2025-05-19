@@ -29,5 +29,5 @@ vim.opt.list = true
 
 vim.opt.scrolloff = 8
 
-vim.wo.conceallevel = 2
+vim.wo.conceallevel = 0
 vim.wo.concealcursor = "inv"

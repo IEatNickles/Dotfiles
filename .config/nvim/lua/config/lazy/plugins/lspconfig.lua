@@ -2,16 +2,12 @@ return {
   "neovim/nvim-lspconfig",
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
     { "antosha417/nvim-lsp-file-operations", config = true },
-    { "folke/neodev.nvim",                   opts = {} },
   },
   event = { "BufReadPre", "BufNewFile" },
   lazy = false,
   config = function()
     local lspconfig = require("lspconfig")
-    local mason_lspconfig = require("mason-lspconfig")
-    mason_lspconfig.setup()
 
     local telescope = require("telescope.builtin")
 
@@ -51,6 +47,7 @@ return {
     })
 
     local capabilities = require("blink.cmp").get_lsp_capabilities()
+    lspconfig.lua_ls.capabilities = capabilities
 
     local pid = vim.fn.getpid()
     local omnisharp_bin = "/usr/local/bin/omnisharp-roslyn/OmniSharp"
@@ -59,12 +56,12 @@ return {
       cmd = { omnisharp_bin, "--languageserver", "--hostPID", tostring(pid) },
     }
 
-    mason_lspconfig.setup_handlers({
-      function(server_name)
-        lspconfig[server_name].setup({
-          capabilities = capabilities
-        })
-      end,
-    })
+    -- mason_lspconfig.setup({
+    --   function(server_name)
+    --     lspconfig[server_name].setup({
+    --       capabilities = capabilities
+    --     })
+    --   end,
+    -- })
   end
 }

@@ -13,6 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   {
-    import = "jdw.lazy.plugins"
+    import = "config.lazy.plugins"
   },
 })

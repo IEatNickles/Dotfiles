@@ -1,2 +1,2 @@
-require("jdw.core")
-require("jdw.lazy")
+require("config.core")
+require("config.lazy")
