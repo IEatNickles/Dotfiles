@@ -114,16 +114,16 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 "
-set $ws2 "2 "
-set $ws3 "3 "
+set $ws1 " 1 "
+set $ws2 " 2 "
+set $ws3 " 3 "
 set $ws4 " 4 "
 set $ws5 " 5 "
 set $ws6 " 6 "
 set $ws7 " 7 "
-set $ws8 "8 "
+set $ws8 " 8 "
 set $ws9 " 9 "
-set $ws10 "10 "
+set $ws10 "10 "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -184,6 +184,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+exec_always --no-startup-id $HOME/.config/i3/polybar.sh
+exec_always --no-startup-id $HOME/.config/i3/picom.sh
+exec_always --no-startup-id $HOME/.config/i3/feh.sh
+
+gaps inner 8px
+
 set $bg-color #221f22
 set $dimmed-bg-color #c1c0c0
 set $text-color #fcfcfa
@@ -198,27 +204,27 @@ client.urgent           $urgent-bg-color $urgent-bg-color $text-color          #
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-  status_command i3blocks -c $HOME/.config/i3/i3blocks.conf
-  colors {
-    background $bg-color
-    statusline #ffffff
-    separator #777777
+# bar {
+#   status_command i3blocks -c $HOME/.config/i3/i3blocks.conf
+#   colors {
+#     background $bg-color
+#     statusline #ffffff
+#     separator #777777
+# 
+#     #                  border            background            text
+#     focused_workspace  $dimmed-bg-color  $bg-color             $text-color
+#     active_workspace   $dimmed-bg-color  $dimmed-bg-color      $text-color
+#     inactive_workspace #333333           #222222               $dimmed-text-color
+#     urgent_workspace   $urgent-bg-color  $urgent-bg-color      $text-color
+#   }
+# }
 
-    #                  border            background            text
-    focused_workspace  $dimmed-bg-color  $bg-color             $text-color
-    active_workspace   $dimmed-bg-color  $dimmed-bg-color      $text-color
-    inactive_workspace #333333           #222222               $dimmed-text-color
-    urgent_workspace   $urgent-bg-color  $urgent-bg-color      $text-color
-  }
-}
-
-hide_edge_borders both
+hide_edge_borders smart
 focus_follows_mouse no
 
 assign [class = "discord"] $ws10
 
-exec_always feh --bg-fill /usr/share/backgrounds/linuxmint/sele_ring_center.jpg
+# exec_always feh --bg-fill /usr/share/backgrounds/linuxmint/sele_ring_center.jpg
 
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+g exec nemo
