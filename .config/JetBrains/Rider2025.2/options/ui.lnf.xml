@@ -1,0 +1,11 @@
+<application>
+  <component name="UISettings">
+    <option name="EDITOR_TAB_PLACEMENT" value="4" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
+    <option name="SHOW_CLOSE_BUTTON" value="false" />
+    <option name="SHOW_DIRECTORY_FOR_NON_UNIQUE_FILENAMES" value="false" />
+    <option name="SHOW_EDITOR_TOOLTIP" value="false" />
+    <option name="SHOW_PREVIEW_IN_SEARCH_EVERYWHERE" value="true" />
+  </component>
+</application>

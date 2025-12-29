@@ -1,0 +1,30 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="553" y="195" width="804" height="675" key="#Run/Debug_Configuration_Templates" timestamp="1762790124915">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="553" y="195" width="804" height="675" key="#Run/Debug_Configuration_Templates/0.0.1920.1080" timestamp="1762790124915" />
+        <state x="1337" y="369" width="513" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1762892002435">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="1337" y="369" width="513" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080" timestamp="1762892002435" />
+        <state x="1374" y="252" width="428" height="510" key="FileChooserDialogImpl" timestamp="1762892001363">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="1374" y="252" width="428" height="510" key="FileChooserDialogImpl/0.0.1920.1080" timestamp="1762892001363" />
+        <state x="462" y="170" width="904" height="736" key="SettingsEditor" timestamp="1762790283356">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="462" y="170" width="904" height="736" key="SettingsEditor/0.0.1920.1080" timestamp="1762790283356" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

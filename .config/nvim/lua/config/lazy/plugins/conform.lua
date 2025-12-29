@@ -1,5 +1,5 @@
 return {
-  'stevearc/conform.nvim',
+  "stevearc/conform.nvim",
   opts = {},
   init = function()
     require("conform").setup({
@@ -9,8 +9,8 @@ return {
         lsp_format = "fallback",
       },
       formatters_by_ft = {
-        json = { "jq" }
-      }
+        json = { "jq" },
+      },
     })
-  end
+  end,
 }

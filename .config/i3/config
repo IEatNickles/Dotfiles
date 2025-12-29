@@ -34,6 +34,8 @@ exec --no-startup-id dex --autostart --environment i3
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+exec_always --no-startup-id pulseaudio
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
@@ -55,7 +57,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show drun
+bindsym $mod+shift+d exec rofi -show run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -101,10 +104,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -187,8 +190,11 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/i3/polybar.sh
 exec_always --no-startup-id $HOME/.config/i3/picom.sh
 exec_always --no-startup-id $HOME/.config/i3/feh.sh
+exec_always --no-startup-id $HOME/.config/i3/polkit.sh
 
-gaps inner 8px
+gaps inner 4px
+gaps top  -3px
+# smart_gaps on
 
 set $bg-color #221f22
 set $dimmed-bg-color #c1c0c0
@@ -220,17 +226,16 @@ client.urgent           $urgent-bg-color $urgent-bg-color $text-color          #
 # }
 
 hide_edge_borders smart
-focus_follows_mouse no
+focus_follows_mouse yes
 
-assign [class = "discord"] $ws10
-
-# exec_always feh --bg-fill /usr/share/backgrounds/linuxmint/sele_ring_center.jpg
-
-bindsym $mod+Shift+f exec firefox
-bindsym $mod+Shift+g exec nemo
+bindsym $mod+Shift+f exec zen
+bindsym $mod+Shift+g exec thunar
 
 exec xset s off
 exec xset -dpms
 exec xset s noblank
 
 exec xset r rate 500 50
+
+for_window [class="No Title Yet"] floating enabled
+for_window [class="Editor"] floating enabled

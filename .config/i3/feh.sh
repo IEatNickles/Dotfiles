@@ -1,5 +1,8 @@
-killall -q feh
-while pgrep -x feh >/dev/null; do sleep 1; done
+#!/bin/bash
 
-# "$HOME/Pictures/flat.jpeg"
-feh --bg-scale "$HOME/Pictures/tag.png"
+hour=$(date +"%H")
+if [ $hour -ge 18 ] || [ $hour -le 8 ]; then
+  feh --bg-scale --randomize $HOME/Pictures/wallpapers/night/*
+else
+  feh --bg-scale --randomize $HOME/Pictures/wallpapers/day/*
+fi

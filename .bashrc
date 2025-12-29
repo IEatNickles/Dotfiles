@@ -99,8 +99,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="$PATH:/opt/nvim/bin:~/bin/:~/.local/bin/"
+export PATH="$PATH:/opt/nvim/bin:~/bin/:~/.local/bin/:~/bin/.local/scripts/:/usr/local/lib/"
 export ODIN_ROOT="$HOME/bin/Odin/"
+
+# source "/home/jdw/bin/emsdk/emsdk_env.sh"
 
 alias vim=nvim
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+. "$HOME/.cargo/env"

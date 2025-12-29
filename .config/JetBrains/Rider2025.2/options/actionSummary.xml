@@ -1,0 +1,238 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1762792344263" />
+    </e>
+    <e n="$SelectAll">
+      <i c="1" l="1762798178069" />
+    </e>
+    <e n="ActivateBookmarksToolWindow">
+      <i c="1" l="1762796498025" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="1" l="1762796733612" />
+    </e>
+    <e n="Annotate">
+      <i c="2" l="1762791822824" />
+    </e>
+    <e n="AutoIndentLines">
+      <i c="5" l="1762810658229" />
+    </e>
+    <e n="Documentation.EditSource">
+      <i c="2" l="1762796695892" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="293" l="1762812287138" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="91" l="1762812214502" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1762795968743" />
+    </e>
+    <e n="EditorDelete">
+      <i c="9" l="1762810655062" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="8" l="1762812251284" />
+    </e>
+    <e n="EditorDown">
+      <i c="19" l="1762812293153" />
+    </e>
+    <e n="EditorEnter">
+      <i c="97" l="1762812164446" />
+    </e>
+    <e n="EditorGutterToggleGlobalIndentLines">
+      <i c="3" l="1762791810126" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1762810946223" />
+    </e>
+    <e n="EditorPaste">
+      <i c="6" l="1762809152336" />
+    </e>
+    <e n="EditorRight">
+      <i c="3" l="1762811934709" />
+    </e>
+    <e n="EditorTab">
+      <i c="12" l="1762810948373" />
+    </e>
+    <e n="EditorUp">
+      <i c="10" l="1762812293548" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1762836367202" />
+    </e>
+    <e n="ExpandAllRegions">
+      <i c="2" l="1762792115791" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="3" l="1762792114000" />
+    </e>
+    <e n="Generate">
+      <i c="1" l="1762807041341" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="15" l="1762809306527" />
+    </e>
+    <e n="IdeaVim.ReloadVimRc.reload">
+      <i c="12" l="1762809776102" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="5" l="1762797082549" />
+    </e>
+    <e n="QuickDocCopy">
+      <i c="1" l="1762795969720" />
+    </e>
+    <e n="QuickJavaDoc">
+      <i c="13" l="1762812284613" />
+    </e>
+    <e n="ReSharperGotoNextErrorInSolution">
+      <i c="3" l="1762796799301" />
+    </e>
+    <e n="ReSharperGotoPrevErrorInSolution">
+      <i c="2" l="1762796787765" />
+    </e>
+    <e n="Refactorings.QuickListPopupAction">
+      <i c="1" l="1762807032445" />
+    </e>
+    <e n="Register">
+      <i c="1" l="1762790339744" />
+    </e>
+    <e n="RenameElement">
+      <i c="3" l="1762809179404" />
+    </e>
+    <e n="RiderOpenSolution">
+      <i c="1" l="1762790305348" />
+    </e>
+    <e n="RunConfigurationTemplatesForNewProjects">
+      <i c="1" l="1762790123438" />
+    </e>
+    <e n="SaveAll">
+      <i c="115" l="1762812295151" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="9" l="1762810562203" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="36" l="1762812218320" />
+    </e>
+    <e n="ShowGutterIconsSettings">
+      <i c="2" l="1762796648255" />
+    </e>
+    <e n="ShowHoverInfo">
+      <i c="29" l="1762811910660" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="26" l="1762811899706" />
+    </e>
+    <e n="ShowSettings">
+      <i c="35" l="1762812219091" />
+    </e>
+    <e n="ToggleBookmark0">
+      <i c="1" l="1762808310060" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1762791198566" />
+    </e>
+    <e n="ToolWindowShowNamesAction">
+      <i c="2" l="1762797463296" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="11" l="1762812231832" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="10" l="1762812230896" />
+    </e>
+    <e n="VimFindActionIdAction">
+      <i c="6" d="6" l="1762809126323" k="1762809126323" />
+    </e>
+    <e n="WelcomeScreen.Configure.Export">
+      <i c="1" l="1762891976624" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="2" l="1762791739095" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.impl.DaemonEditorPopup$1">
+      <i c="1" l="1762807754486" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.OtherOptions">
+      <i c="1" l="1762790067165" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.SkipImportAction">
+      <i c="1" l="1762790070985" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="948" l="1762812295148" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.impl.MoreActionGroup">
+      <i c="3" l="1762796692122" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="1" l="1762798202824" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$createAction$result$1">
+      <i c="3" l="1762798209094" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="3" l="1762797111536" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
+      <i c="2" l="1762797117522" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="2" l="1762810562964" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="2" l="1762807767781" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1762836365566" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="3" l="1762891972724" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="6" l="1762807770336" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="14" l="1762811903883" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="4" l="1762810897257" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="2" l="1762790079332" />
+    </e>
+    <e n="com.jetbrains.rdclient.daemon.highlighters.gutterMarks.dotnet.wrappers.BackendGutterMarkWrapper$getClickAction$1">
+      <i c="1" l="1762791400434" />
+    </e>
+    <e n="com.jetbrains.rider.projectView.actions.newFile.RiderNewMultiFileFromTemplateAction">
+      <i c="2" l="1762809897552" />
+    </e>
+    <e n="com.jetbrains.rider.settings.codeCleanup.CloneProfileAction">
+      <i c="1" l="1762807707624" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$ActionIdNotifier$CopyActionId">
+      <i c="6" l="1762809136458" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$ActionIdNotifier$StopTracking">
+      <i c="4" l="1762809138529" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
+      <i c="1" l="1762792099391" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$2">
+      <i c="2" l="1762790929223" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.HelpLink">
+      <i c="1" l="1762791912352" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ShortcutConflictsSettings">
+      <i c="1" l="1762792077754" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.VimEmulationConfigurable$CopyForRcAction">
+      <i c="1" l="1762792087097" />
+    </e>
+  </component>
+</application>

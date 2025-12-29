@@ -1,0 +1,25 @@
+<application>
+  <component name="RiderRecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/dev/UltraDoom/UltraDoom.sln">
+          <value>
+            <RecentProjectMetaInfo frameTitle="UltraDoom – RangedEnemy.cs" projectWorkspaceId="35IGlAsOWQ9XswBqMOqqridj32E">
+              <option name="activationTimestamp" value="1762836370601" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-252.27397.121" />
+              <option name="buildTimestamp" value="1761554880000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="2" y="37" width="1916" height="1041" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1762791890948" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/dev/UltraDoom/UltraDoom.sln" />
+  </component>
+</application>

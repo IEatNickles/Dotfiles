@@ -20,7 +20,7 @@ vim.opt.wrap = false
 vim.opt.syntax = "on"
 
 vim.opt.listchars = {
-  tab = "|--",
+  tab = "   ",
   trail = ".",
   extends = ">",
   precedes = "<"
